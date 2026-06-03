@@ -16,17 +16,29 @@
     "android",
     "ios",
     "ecosystem:cordova",
-    "cordova:plugin"
+    "cordova:plugin",
+    "cordova-ios",
+    "cordova-image",
+    "cordova-gallery"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/rajatTemaniya/cordova-permissionless-multi-image-picker"
+    "url": "git+https://github.com/rajatTemaniya/cordova-permissionless-multi-image-picker.git"
   },
   "cordova": {
-    "id": "cordova-permissionless-multi-image-picker",
-    "platforms": ["android", "ios"]
+    "id": "cordova-plugin-permissionless-multi-image-picker",
+    "platforms": [
+      "android",
+      "ios"
+    ]
   },
   "engines": {
     "cordovaEngine": ">=9.0.0"
-  }
+  },
+  "files": [
+  "www",
+  "src",
+  "plugin.xml",
+  "README.md"
+]
 }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin id="cordova-permissionless-multi-image-picker"
+<plugin id="cordova-plugin-permissionless-multi-image-picker"
         version="1.0.0"
         xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android">
@@ -19,7 +19,7 @@
     </engines>
 
     <js-module name="PermissionlessMultiImagePicker"
-               src="www/cordova-permissionless-multi-image-picker.js">
+               src="www/cordova-plugin-permissionless-multi-image-picker.js">
         <clobbers target="cordova.plugins.PermissionlessMultiImagePicker" />
     </js-module>
 

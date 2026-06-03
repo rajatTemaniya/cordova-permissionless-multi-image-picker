@@ -1,0 +1,32 @@
+{
+  "name": "@rajattemaniya/cordova-plugin-permissionless-multi-image-picker",
+  "version": "1.0.0",
+  "description": "Pick multiple images natively on Android and iOS without media permissions. Returns file:// URIs.",
+  "main": "www/cordova-permissionless-multi-image-picker.js",
+  "author": "Rajat Temaniya",
+  "license": "MIT",
+  "keywords": [
+    "cordova",
+    "cordova-plugin",
+    "photo",
+    "picker",
+    "image",
+    "permissionless",
+    "multi",
+    "android",
+    "ios",
+    "ecosystem:cordova",
+    "cordova:plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rajatTemaniya/cordova-permissionless-multi-image-picker"
+  },
+  "cordova": {
+    "id": "cordova-permissionless-multi-image-picker",
+    "platforms": ["android", "ios"]
+  },
+  "engines": {
+    "cordovaEngine": ">=9.0.0"
+  }
+}

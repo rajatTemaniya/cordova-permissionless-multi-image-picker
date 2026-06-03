@@ -1,10 +1,14 @@
 {
   "name": "@rajattemaniya/cordova-plugin-permissionless-multi-image-picker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cordova plugin to pick multiple images on Android and iOS without READ_MEDIA_IMAGES or storage permissions.",
   "main": "www/cordova-plugin-permissionless-multi-image-picker.js",
   "author": "Rajat Temaniya",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/rajatTemaniya/cordova-permissionless-multi-image-picker#readme",
   "keywords": [
     "cordova",
     "cordova-plugin",
